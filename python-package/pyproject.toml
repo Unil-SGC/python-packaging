@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools >= 65","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iceflow"
+version = "0.0.7"
+dependencies = ["numpy","matplotlib"]
+authors = [{ name="Pepito", email="pepito@unil.ch" }]
+description = "Non-linear ice flow solver"
+readme = "README.md"
+requires-python = ">=3.8"
